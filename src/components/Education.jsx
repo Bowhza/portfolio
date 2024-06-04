@@ -14,10 +14,11 @@ export default function Education() {
 
   return (
     <section
-      className="observe flex flex-col gap-3 
-     bg-slate-800 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 p-5 shadow-lg"
+      id="education"
+      className="observe flex flex-col gap-3 opacity-0 transition-all ease-in-out duration-500 translate-x-0
+     bg-slate-900 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 p-5 shadow-lg"
     >
-      <h2 className="font-bold text-2xl text-teal-400">Education</h2>
+      <h2 className="font-bold text-2xl text-teal-300">Education</h2>
       <div className="leading-5">
         <h3 className="font-semibold text-lg">
           Northern Alberta Institute of Technology
@@ -28,10 +29,14 @@ export default function Education() {
       <div>
         <h3 className="font-semibold text-lg">Relevant Coursework</h3>
         <ul className="flex flex-wrap gap-2 pt-2">
-          {courseWork.map((item) => {
-            return <ListCard text={item} />;
+          {courseWork.map((item, key) => {
+            return <ListCard text={item} key={key} />;
           })}
         </ul>
+      </div>
+      <div>
+        <h3 className="font-semibold text-lg">Academic Achievements</h3>
+        <p>Achieved Dean’s list every semester with an overall GPA of 3.9.</p>
       </div>
     </section>
   );

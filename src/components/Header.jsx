@@ -22,11 +22,11 @@ export default function Header() {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div>
-        <h1 className="text-neutral-200 text-4xl transition ease-in-out delay-150 font-bold select-none">
+        <h1 className="text-neutral-200 text-4xl transition ease-in-out delay-150 font-bold select-none drop-shadow-lg">
           {text}
           {<span className="blink-animation">|</span>}
         </h1>
-        <h2 className="text-neutral-200 font-semibold">
+        <h2 className="text-neutral-200 font-semibold drop-shadow-lg">
           Computer Engineering Technologist
         </h2>
       </div>
@@ -35,14 +35,14 @@ export default function Header() {
         <div className="flex gap-2">
           <a href="https://www.linkedin.com/in/bohdanbohnat/" target="_blank">
             <img
-              className="size-10 grayscale hover:grayscale-0 transition-color ease-in-out duration-500 hover:animate-pulse hover:scale-110"
-              src="./src/assets/linkedin.svg"
+              className="size-12 grayscale hover:grayscale-0 transition-color ease-in-out duration-500 hover:animate-pulse hover:scale-110"
+              src="src/assets/linkedin.svg"
             />
           </a>
           <a href="https://github.com/Bowhza" target="_blank">
             <img
-              className="size-10 hover:invert transition-color ease-in-out duration-500 hover:animate-pulse hover:scale-110"
-              src="./src/assets/github.svg"
+              className="size-12 hover:invert transition-color ease-in-out duration-500 hover:animate-pulse hover:scale-110"
+              src="src/assets/github.svg"
             />
           </a>
         </div>
