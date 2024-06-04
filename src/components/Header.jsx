@@ -20,7 +20,7 @@ export default function Header() {
   }, [fullText]);
 
   return (
-    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+    <header className="sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
       <div>
         <h1 className="text-neutral-200 text-4xl transition ease-in-out delay-150 font-bold select-none drop-shadow-lg">
           {text}

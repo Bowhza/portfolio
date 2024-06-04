@@ -49,7 +49,7 @@ export default function Projects() {
       <h2 className="font-bold text-2xl text-teal-300 pb-5 observe opacity-0 transition-all ease-in-out duration-500">
         Projects
       </h2>
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 group/list">
         {projects.map((project, index) => {
           return <ProjectCard {...project} key={index} />;
         })}
@@ -63,7 +63,7 @@ function ProjectCard({ title, description, image, skills, link }) {
     <a href={link} target="_blank">
       <div
         className="observe opacity-0 flex flex-col gap-3 transition-all ease-in-out duration-500 translate-x-0
-     bg-slate-900 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-25 p-5 shadow-lg hover:bg-opacity-35 group 
+     bg-slate-900 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-25 p-5 shadow-lg hover:bg-opacity-35 group/list lg:hover:!opacity-100 lg:group-hover/list:opacity-50
      "
       >
         <div>

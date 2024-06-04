@@ -15,7 +15,7 @@ export default function Education() {
   return (
     <section
       id="education"
-      className="observe flex flex-col gap-3 opacity-0 transition-all ease-in-out duration-500 translate-x-0
+      className="observe opacity-0 flex flex-col gap-3 transition-all ease-in-out duration-500 translate-x-0
      bg-slate-900 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 p-5 shadow-lg hover:bg-opacity-35"
     >
       <h2 className="font-bold text-2xl text-teal-300">Education</h2>
