@@ -66,6 +66,7 @@ function App() {
           <About />
           <Education />
           <Skills />
+          <Projects />
         </main>
       </div>
     </div>
