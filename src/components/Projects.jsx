@@ -6,7 +6,7 @@ export default function Projects() {
       title: "Raspberry Pi Smart Mirror",
       description:
         "Developed a smart mirror that provides real-time information such as the time, weather, reminders, and news. Incorporates a gesture sensor, proximity sensor, ambient light sensor for automatic display adjustment, and accelerometer for tap features. To improve accessibility and user experience, there is a web application for users to control the device and modify settings.",
-      image: "src/assets/MirrorUI.gif",
+      image: "assets/MirrorUI.gif",
       skills: [
         "Python",
         "Flask REST API",
@@ -22,7 +22,7 @@ export default function Projects() {
       title: "Audio Mixer",
       description:
         "Designed an audio mixer using the ATMega328p microcontroller, programmed using Embedded C, with slider potentiometers for easy volume adjustment. Developed an audio driver and desktop application using C# WinForms.",
-      image: "src/assets/Audio-Driver.png",
+      image: "assets/Audio-Driver.png",
       skills: ["Embedded C", "Platform-IO", "C#", ".NET Framework", "WinForms"],
       link: "https://github.com/Bowhza/Audio-Mixer",
     },
@@ -30,7 +30,7 @@ export default function Projects() {
       title: "Lokit (Password Manager)",
       description:
         "Created a self-hosted password manager with a 2-step decryption system requiring a user-specific decryption key file for extra security. Password hashing and salting are done from scratch using Bcrypt.",
-      image: "src/assets/Lokit.png",
+      image: "assets/Lokit.png",
       skills: [
         "Flask",
         "jQuery",

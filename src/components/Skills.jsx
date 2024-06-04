@@ -9,39 +9,39 @@ export default function Skills() {
       <h3 className="text-center font-bold text-lg">Web Development</h3>
       <div className="flex flex-col lg:gap-5 gap-3">
         <div className="flex justify-around items-center flex-wrap gap-5 lg:gap-0">
-          <SkillCard image={"src/assets/html.svg"} text="HTML" />
-          <SkillCard image={"src/assets/css.svg"} text="CSS" />
-          <SkillCard image={"src/assets/javascript.svg"} text="JavaScript" />
-          <SkillCard image={"src/assets/react.svg"} text="React.js" />
-          <SkillCard image={"src/assets/tailwind.svg"} text="Tailwind" />
+          <SkillCard image={"assets/html.svg"} text="HTML" />
+          <SkillCard image={"assets/css.svg"} text="CSS" />
+          <SkillCard image={"assets/javascript.svg"} text="JavaScript" />
+          <SkillCard image={"assets/react.svg"} text="React.js" />
+          <SkillCard image={"assets/tailwind.svg"} text="Tailwind" />
         </div>
         <div className="flex justify-around items-center flex-wrap gap-5 lg:gap-0">
-          <SkillCard image={"src/assets/jquery.svg"} text="jQuery" />
-          <SkillCard image={"src/assets/nodejs.svg"} text="Node.js" />
-          <SkillCard image={"src/assets/vite.svg"} text="Vite" />
-          <SkillCard image={"src/assets/php.svg"} text="PHP" />
-          <SkillCard image={"src/assets/flask.svg"} text="Flask" />
+          <SkillCard image={"assets/jquery.svg"} text="jQuery" />
+          <SkillCard image={"assets/nodejs.svg"} text="Node.js" />
+          <SkillCard image={"assets/vite.svg"} text="Vite" />
+          <SkillCard image={"assets/php.svg"} text="PHP" />
+          <SkillCard image={"assets/flask.svg"} text="Flask" />
         </div>
         <h3 className="text-center font-bold text-lg">
           Programming and Databases
         </h3>
         <div className="flex justify-around items-center flex-wrap gap-5 lg:gap-0">
-          <SkillCard image={"src/assets/csharp.svg"} text="C#" />
-          <SkillCard image={"src/assets/python.svg"} text="Python" />
-          <SkillCard image={"src/assets/c.svg"} text="C" />
-          <SkillCard image={"src/assets/mysql.svg"} text="mySQL" />
-          <SkillCard image={"src/assets/sqlite.svg"} text="SQLite" />
-          <SkillCard image={"src/assets/sqlserver.svg"} text="MS SQL" />
+          <SkillCard image={"assets/csharp.svg"} text="C#" />
+          <SkillCard image={"assets/python.svg"} text="Python" />
+          <SkillCard image={"assets/c.svg"} text="C" />
+          <SkillCard image={"assets/mysql.svg"} text="mySQL" />
+          <SkillCard image={"assets/sqlite.svg"} text="SQLite" />
+          <SkillCard image={"assets/sqlserver.svg"} text="MS SQL" />
         </div>
         <h3 className="text-center font-bold text-lg flex-wrap gap-5 lg:gap-0">
           Tools & Other
         </h3>
         <div className="flex justify-around items-center flex-wrap gap-5 lg:gap-0 ">
-          <SkillCard image={"src/assets/git.svg"} text="Git" />
-          <SkillCard image={"src/assets/github.svg"} text="GitHub" />
-          <SkillCard image={"src/assets/adobe.svg"} text="Adobe" />
-          <SkillCard image={"src/assets/virtualbox.svg"} text="VirtualBox" />
-          <SkillCard image={"src/assets/vmware.svg"} text="VMWare" />
+          <SkillCard image={"assets/git.svg"} text="Git" />
+          <SkillCard image={"assets/github.svg"} text="GitHub" />
+          <SkillCard image={"assets/adobe.svg"} text="Adobe" />
+          <SkillCard image={"assets/virtualbox.svg"} text="VirtualBox" />
+          <SkillCard image={"assets/vmware.svg"} text="VMWare" />
         </div>
       </div>
     </section>

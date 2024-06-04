@@ -36,13 +36,13 @@ export default function Header() {
           <a href="https://www.linkedin.com/in/bohdanbohnat/" target="_blank">
             <img
               className="size-12 grayscale hover:grayscale-0 transition-color ease-in-out duration-500 hover:animate-pulse hover:scale-110"
-              src="src/assets/linkedin.svg"
+              src="assets/linkedin.svg"
             />
           </a>
           <a href="https://github.com/Bowhza" target="_blank">
             <img
               className="size-12 hover:invert transition-color ease-in-out duration-500 hover:animate-pulse hover:scale-110"
-              src="src/assets/github.svg"
+              src="assets/github.svg"
             />
           </a>
         </div>
