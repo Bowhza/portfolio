@@ -1,11 +1,13 @@
 export default function About() {
   return (
-    <section className="">
-      <h2 className="font-bold text-2xl text-teal-300 pb-5 observe opacity-0 transition-all ease-in-out duration-500">
+    <section>
+      <h2
+        id="about"
+        className="font-bold text-2xl text-teal-300 pb-5 observe opacity-0 transition-all ease-in-out duration-500"
+      >
         About Me
       </h2>
       <div
-        id="about"
         className="observe opacity-30 flex flex-col gap-3 transition-all ease-in-out duration-500 translate-x-0
       bg-slate-900 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 p-5 shadow-lg hover:bg-opacity-35"
       >

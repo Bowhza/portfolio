@@ -28,10 +28,29 @@ function App() {
   }, []);
 
   useEffect(() => {
+    const ids = ["about", "education", "skills", "projects"];
+    const navList = document.getElementById("nav-list").children;
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          console.log(entry);
+          if (ids.includes(entry.target.id) && entry.isIntersecting) {
+            const intersectingLink = document.getElementById(
+              `${entry.target.id}-nav`
+            );
+            for (let i = 0; i < navList.length; i++) {
+              navList[i].classList.remove(
+                "lg:text-xl",
+                "lg:text-teal-300",
+                "lg:pl-2"
+              );
+            }
+            intersectingLink.classList.add(
+              "lg:text-xl",
+              "lg:text-teal-300",
+              "lg:pl-2"
+            );
+          }
+
           if (entry.isIntersecting) {
             entry.target.classList.remove("opacity-30", "translate-x-[200px]");
             entry.target.classList.add("opacity-100", "translate-x-0");
@@ -42,7 +61,7 @@ function App() {
         });
       },
       {
-        threshold: 0.25,
+        threshold: 0.3,
       }
     );
 
