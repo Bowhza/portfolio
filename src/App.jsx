@@ -33,16 +33,16 @@ function App() {
         entries.forEach((entry) => {
           console.log(entry);
           if (entry.isIntersecting) {
-            entry.target.classList.remove("opacity-0", "translate-x-24");
+            entry.target.classList.remove("opacity-30", "translate-x-[300px]");
             entry.target.classList.add("opacity-100", "translate-x-0");
           } else {
             entry.target.classList.remove("opacity-100", "translate-x-0");
-            entry.target.classList.add("opacity-0", "translate-x-24");
+            entry.target.classList.add("opacity-30", "translate-x-[300px]");
           }
         });
       },
       {
-        threshold: 0.35,
+        threshold: 0.25,
       }
     );
 

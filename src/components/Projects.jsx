@@ -19,6 +19,21 @@ export default function Projects() {
       link: "https://github.com/Bowhza/Smart-Mirror",
     },
     {
+      title: "EURO 2024 Match Predictor",
+      description:
+        "Developed a match predictor for the EURO 2024 tournament using the XGBoost classifier machine learning model to predict match outcomes. The model was trained using historical data from previous international matches. Matplotlib was used to visualize the feature engineered data.",
+      image: "assets/EURO2024.png",
+      skills: [
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "Matplotlib",
+        "Jupyter Notebook",
+        "Python",
+      ],
+      link: "https://github.com/Bowhza/euro2024-predictor",
+    },
+    {
       title: "Audio Mixer",
       description:
         "Designed an audio mixer using the ATMega328p microcontroller, programmed using Embedded C, with slider potentiometers for easy volume adjustment. Developed an audio driver and desktop application using C# WinForms.",
