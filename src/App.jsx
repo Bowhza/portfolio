@@ -61,7 +61,7 @@ function App() {
   return (
     <div className="lg:flex lg:justify-between lg:gap-4">
       <Header />
-      <main className="flex flex-col gap-10 pt-24 lg:w-1/2 lg:py-24 text-neutral-200 lg:overflow-visible overflow-hidden">
+      <main className="flex flex-col gap-10 pt-10 lg:w-1/2 lg:py-24 text-neutral-200 lg:overflow-visible overflow-hidden">
         <About />
         <Education />
         <Skills />
