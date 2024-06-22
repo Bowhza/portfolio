@@ -19,7 +19,7 @@ export default function Projects() {
       link: "https://github.com/Bowhza/Smart-Mirror",
     },
     {
-      title: "EURO 2024 Match Predictor",
+      title: "Soccer Match Predictor",
       description:
         "Developed a match predictor for the EURO 2024 tournament using the XGBoost classifier machine learning model to predict match outcomes. The model was trained using historical data from previous international matches. Matplotlib was used to visualize the feature engineered data.",
       image: "assets/EURO2024.png",
