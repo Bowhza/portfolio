@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section>
+    <section className="">
       <h2 className="font-bold text-2xl text-teal-300 pb-5 observe opacity-0 transition-all ease-in-out duration-500">
         About Me
       </h2>

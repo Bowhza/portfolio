@@ -27,6 +27,7 @@ export default function Projects() {
         "Pandas",
         "NumPy",
         "Scikit-learn",
+        "XGBoost",
         "Matplotlib",
         "Jupyter Notebook",
         "Python",
@@ -60,7 +61,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects">
+    <section id="projects" className="">
       <h2 className="font-bold text-2xl text-teal-300 pb-5 observe opacity-0 transition-all ease-in-out duration-500">
         Projects
       </h2>

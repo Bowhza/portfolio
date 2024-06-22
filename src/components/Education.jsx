@@ -3,17 +3,18 @@ import ListCard from "./ListCard";
 export default function Education() {
   const courseWork = [
     "Data Structures and Algorithms",
+    "Object-Oriented Programming",
     "Databases",
     "Web Development",
-    "Electronics Design and Analysis",
-    "Embedded System Design and Programming",
-    "PLC Programming",
-    "Wireless Networking and Communications",
+    "PLC/FPGA Programming",
+    "Embedded System Design",
+    "Wireless Communication/Networking",
     "Software Development Lifecycle",
+    "Project Management",
   ];
 
   return (
-    <section>
+    <section className="">
       <h2 className="font-bold text-2xl text-teal-300 pb-5 observe opacity-0 transition-all ease-in-out duration-500">
         Education
       </h2>

@@ -33,16 +33,16 @@ function App() {
         entries.forEach((entry) => {
           console.log(entry);
           if (entry.isIntersecting) {
-            entry.target.classList.remove("opacity-30", "translate-x-[300px]");
+            entry.target.classList.remove("opacity-30", "translate-x-[200px]");
             entry.target.classList.add("opacity-100", "translate-x-0");
           } else {
             entry.target.classList.remove("opacity-100", "translate-x-0");
-            entry.target.classList.add("opacity-30", "translate-x-[300px]");
+            entry.target.classList.add("opacity-30", "translate-x-[200px]");
           }
         });
       },
       {
-        threshold: 0.3,
+        threshold: 0.25,
       }
     );
 
@@ -61,7 +61,7 @@ function App() {
   return (
     <div className="lg:flex lg:justify-between lg:gap-4">
       <Header />
-      <main className="flex flex-col gap-10 pt-24 lg:w-1/2 lg:py-24 text-neutral-200 ">
+      <main className="flex flex-col gap-10 pt-24 lg:w-1/2 lg:py-24 text-neutral-200 lg:overflow-visible overflow-hidden">
         <About />
         <Education />
         <Skills />
