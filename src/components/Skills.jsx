@@ -22,7 +22,8 @@ export default function Skills() {
             <SkillCard image={"assets/tailwind.svg"} text="Tailwind" />
             <SkillCard image={"assets/jquery.svg"} text="jQuery" />
             <SkillCard image={"assets/nodejs.svg"} text="Node.js" />
-            <SkillCard image={"assets/vite.svg"} text="Vite" />
+            <SkillCard image={"assets/jest.svg"} text="Jest.js" />
+            <SkillCard image={"assets/net-core.svg"} text="ASP.NET Core" />
             <SkillCard image={"assets/php.svg"} text="PHP" />
             <SkillCard image={"assets/flask.svg"} text="Flask" />
           </div>
@@ -52,12 +53,13 @@ export default function Skills() {
           <h3 className="text-center font-bold text-lg flex-wrap gap-5 lg:gap-0">
             Tools & Other
           </h3>
-          <div className="flex justify-around items-center flex-wrap gap-5 lg:gap-0 ">
+          <div className="flex justify-around items-center flex-wrap gap-5">
             <SkillCard image={"assets/git.svg"} text="Git" />
             <SkillCard image={"assets/github.svg"} text="GitHub" />
             <SkillCard image={"assets/adobe.svg"} text="Adobe" />
             <SkillCard image={"assets/virtualbox.svg"} text="VirtualBox" />
             <SkillCard image={"assets/vmware.svg"} text="VMWare" />
+            <SkillCard image={"assets/kicad.svg"} text="KiCad" />
           </div>
         </section>
       </div>
