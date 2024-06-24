@@ -5,7 +5,7 @@ export default function Projects() {
     {
       title: "Raspberry Pi Smart Mirror",
       description:
-        "Developed a smart mirror that provides real-time information such as the time, weather, reminders, and news. Incorporates a gesture sensor, proximity sensor, ambient light sensor for automatic display adjustment, and accelerometer for tap features. To improve accessibility and user experience, there is a web application for users to control the device and modify settings.",
+        "Created a smart mirror displaying real-time time, weather, reminders, and news. Features gesture and proximity sensors, ambient light adjustment, and tap control via accelerometer. Includes a web app for user control and settings adjustment.",
       image: "assets/MirrorUI.gif",
       skills: [
         "Python",
@@ -15,6 +15,7 @@ export default function Projects() {
         "SQLite",
         "Node.js",
         "Socket.io",
+        "Raspberry Pi",
       ],
       link: "https://github.com/Bowhza/Smart-Mirror",
     },
@@ -39,7 +40,14 @@ export default function Projects() {
       description:
         "Designed an audio mixer using the ATMega328p microcontroller, programmed using Embedded C, with slider potentiometers for easy volume adjustment. Developed an audio driver and desktop application using C# WinForms.",
       image: "assets/Audio-Driver.png",
-      skills: ["Embedded C", "Platform-IO", "C#", ".NET Framework", "WinForms"],
+      skills: [
+        "Embedded C",
+        "Platform-IO",
+        "C#",
+        ".NET Framework",
+        "WinForms",
+        "Arduino Nano",
+      ],
       link: "https://github.com/Bowhza/Audio-Mixer",
     },
     {
@@ -85,20 +93,22 @@ function ProjectCard({ title, description, image, skills, link }) {
      bg-slate-900 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-25 p-5 shadow-lg hover:bg-opacity-35 group/list lg:hover:!opacity-100 lg:group-hover/list:opacity-50
      "
       >
-        <div>
-          <img
-            className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-            src={image}
-          />
-        </div>
-        <div className="flex flex-col gap-2">
+        <div className="md:grid md:grid-cols-2 lg:grid-cols-[3fr_4fr] sm:flex sm:flex-col gap-3">
+          <div>
+            <img
+              className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+              src={image}
+            />
+          </div>
           <div>
             <h2 className="font-bold text-lg">{title}</h2>
             <p className="text-sm leading-4 font-semibold text-neutral-400 group-hover:text-neutral-300 transition-all ease-in-out duration-300">
               {description}
             </p>
           </div>
-          <ul className="flex flex-wrap gap-2">
+        </div>
+        <div className="col-span-2">
+          <ul className="flex flex-wrap gap-2 ">
             {skills.map((item, index) => {
               return <ListCard text={item} key={index} />;
             })}

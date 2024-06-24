@@ -3,7 +3,7 @@ export default function Navigation() {
     <nav>
       <ul
         id="nav-list"
-        className="flex flex-col gap-3 my-5 font-semibold text-neutral-200 drop-shadow-lg"
+        className="flex flex-col gap-3 my-5 font-semibold text-neutral-200 drop-shadow-lg "
       >
         <li
           id="about-nav"
