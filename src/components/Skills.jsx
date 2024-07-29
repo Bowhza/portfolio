@@ -23,7 +23,7 @@ export default function Skills() {
             <SkillCard image={"assets/jquery.svg"} text="jQuery" />
             <SkillCard image={"assets/nodejs.svg"} text="Node.js" />
             <SkillCard image={"assets/jest.svg"} text="Jest.js" />
-            <SkillCard image={"assets/net-core.svg"} text="ASP.NET Core" />
+            <SkillCard image={"assets/net-core.svg"} text="ASP.NET" />
             <SkillCard image={"assets/php.svg"} text="PHP" />
             <SkillCard image={"assets/flask.svg"} text="Flask" />
           </div>
@@ -69,12 +69,9 @@ export default function Skills() {
 
 function SkillCard({ image, text }) {
   return (
-    <div className="flex flex-col group items-center mw-8">
-      <img
-        className="size-16 lg:size-12 transition ease-in-out duration-300 hover:scale-110 hover:animate-pulse"
-        src={image}
-      ></img>
-      <p className="font-bold transition ease-in-out duration-300 text-center group-hover:text-teal-300">
+    <div className="flex flex-col group items-center mw-8 transition ease-in-out duration-300 hover:scale-110">
+      <img className="size-14 group-hover:animate-pulse" src={image}></img>
+      <p className="font-bold transition ease-in-out duration-300 text-center group-hover:text-teal-300 select-none">
         {text}
       </p>
     </div>
