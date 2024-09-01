@@ -1,7 +1,24 @@
+import { useEffect } from "react";
 import ListCard from "./ListCard";
 
 export default function Projects() {
   const projects = [
+    {
+      title: "H2M-Launcher",
+      description:
+        "Developed a custom launcher/server browser for H2M Mod that fixes issues with the in-game server browser while also providing additional features like server filtering. The launcher has been featured in a Discord community of over 35k members and on various YouTube channels.",
+      image: "assets/H2M-Launcher.png",
+      skills: [
+        "C#",
+        "WPF",
+        "XAML",
+        "REST API",
+        "Windows APIs",
+        "MVVM",
+        "MVVM Community Toolkit",
+      ],
+      link: "https://github.com/Bowhza/H2M-Launcher",
+    },
     {
       title: "Raspberry Pi Smart Mirror",
       description:
@@ -9,7 +26,8 @@ export default function Projects() {
       image: "assets/MirrorUI.gif",
       skills: [
         "Python",
-        "Flask REST API",
+        "Flask",
+        "REST API",
         "React.js",
         "Tailwind CSS",
         "SQLite",
